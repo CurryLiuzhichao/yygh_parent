@@ -1,7 +1,6 @@
 package com.atlzc.yygh.cmn.service;
 
 import com.atlzc.yygh.model.cmn.Dict;
-import com.atlzc.yygh.model.hosp.HospitalSet;
 import com.baomidou.mybatisplus.extension.service.IService;
 import org.springframework.web.multipart.MultipartFile;
 
