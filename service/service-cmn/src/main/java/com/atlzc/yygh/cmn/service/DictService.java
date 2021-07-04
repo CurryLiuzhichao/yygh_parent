@@ -15,4 +15,8 @@ public interface DictService extends IService<Dict> {
     void exportData(HttpServletResponse response);
     //导入
     void importData(MultipartFile file);
+    //根据Dictcode和value查询
+    String getNameByParentDictCodeAndValue(String parentDictCode, String value);
+    //根据dictCode获取下级节点
+    List<Dict> findByDictCode(String dictCode);
 }
