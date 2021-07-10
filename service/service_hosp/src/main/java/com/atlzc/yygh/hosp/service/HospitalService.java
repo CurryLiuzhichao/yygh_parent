@@ -17,5 +17,6 @@ public interface HospitalService {
     void updateStatus(String id, Integer status);
     //获取医院详情
     Map<String, Object> getHospById(String id);
-
+    //获取医院名称
+    String getHospName(String hoscode);
 }
